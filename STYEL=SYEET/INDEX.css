@@ -45,7 +45,7 @@ nav{
 
 }
 .containor{
-    width: 80%; 
+    width: 80%;  
     margin: auto;
 
 }
@@ -58,6 +58,32 @@ nav{
 #header{
     display: flex;
     margin: 60px auto;
+    justify-content: space-between;
+       
+}
+.header-contant{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;   
+    justify-content: center;
+    max-width: 500px;
+    
+}
+.header-img{
+   
+}
+
+.header-contant h2{
+    font-size: 42px;
+
+}
+.header-contant h1{
+    font-size: 52px;
+
+}
+.header-contant h1 span{
+    font-size: 52px;
+    color: #ac4ed7;
 
 }
 
