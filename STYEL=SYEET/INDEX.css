@@ -27,6 +27,7 @@
 --gradient-4: linear-gradient(142deg, #26c8fc 6.46%, #57ecc8 58.9%, #49f5db 93.88%);
 }
 
+/* FAST SECTION BOX FOR STYEL */
 a{
     text-decoration: none;
     color: var(--white);
@@ -59,7 +60,7 @@ nav{
     display: flex;
     margin: 60px auto;
     justify-content: space-between;
-       
+
 }
 .header-contant{
     display: flex;
@@ -69,10 +70,38 @@ nav{
     max-width: 500px;
     
 }
-.header-img{
-   
+.button-wapper{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
 }
+.btn{
+    padding: 12px 22px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: none;
+    gap: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
 
+}
+.btn img{
+    width: 14px;
+    height: 14px;
+    
+}
+.primary-btn{
+    background: var(--primary);
+    color: var(--white);
+}
+.primary2-btn{
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    color: var(--white);
+}
 .header-contant h2{
     font-size: 42px;
 
@@ -86,12 +115,18 @@ nav{
     color: #ac4ed7;
 
 }
+/* /*  SECEND SECTION BOX FOR STYEL */
+.tittle{
+    color: var(--primary);
+}
 
 
 body{
     background: var(--dark-mode-S900);
     color: var(--white);
 }
+
+
 
 
 
