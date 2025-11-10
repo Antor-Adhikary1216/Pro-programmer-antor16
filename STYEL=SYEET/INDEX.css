@@ -1,0 +1,75 @@
+   /* STERDER CODER FOR CSS STYELS ==> FOR WEBSITE IN RESPONSIVE ==>  */
+
+   /* LINK GOOGLE FONTS STER 1 */ 
+   
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* END GOOGLE FONTS STER 2 */
+
+/* UNIVERSILE TAG FOR RESPONSIVE WEBSITE STER 1 */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+     font-optical-sizing: auto;
+  
+}
+/* END UNIVERSILES TAG STER 2 */
+/* COLORE ROOT MAP IN CSS FOR STYEL  */
+:root{
+    --white : #fefefe;
+--primary: #7562e0;
+--dark-mode-S900: #1a1a29;
+--dark-mode-S1000: #181824;
+--dark-mode-S200: #31313f;
+--gradient-1: linear-gradient(180deg, #6473ff 0%, #2134e1 99.99%, #152bf1 100%);
+--gradient-2: linear-gradient(139deg, #f97878 9.79%, rgba(255, 176, 119, 0.81) 64.34%, rgba(255, 176, 119, 0.81) 90.36%);
+--gradient-3: linear-gradient(140deg, #f97878 0%, #4052fb 73.99%, #0720ff 100%);
+--gradient-4: linear-gradient(142deg, #26c8fc 6.46%, #57ecc8 58.9%, #49f5db 93.88%);
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+    
+}
+
+li{
+    list-style: none;
+}
+
+nav{
+    background: var(--dark-mode-S1000);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+
+}
+.containor{
+    width: 80%; 
+    margin: auto;
+
+}
+.nav-list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+#header{
+    display: flex;
+    margin: 60px auto;
+
+}
+
+
+body{
+    background: var(--dark-mode-S900);
+    color: var(--white);
+}
+
+
+
+
+
+
+
