@@ -27,7 +27,7 @@
 --gradient-4: linear-gradient(142deg, #26c8fc 6.46%, #57ecc8 58.9%, #49f5db 93.88%);
 }
 
-/* FAST SECTION BOX FOR STYEL */
+/* FAST SECTION BOX FOR STYEL 1 */
 a{
     text-decoration: none;
     color: var(--white);
@@ -115,7 +115,7 @@ nav{
     color: #ac4ed7;
 
 }
-/* /*  SECEND SECTION BOX FOR STYEL */
+/* /*  SECEND SECTION BOX FOR STYEL 2*/
 .tittle{
     color: var(--primary);
 }
@@ -178,7 +178,70 @@ justify-content: flex-end;
 
 }
 
-/* NEXT SECTION IN ==> SERVICES  */
+/* NEXT SECTION IN ==> SERVICES 3 */
+
+.services-containor{
+     margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap: 30px;
+}
+.service{
+    height: 250px;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.service img{
+    width: 50px;
+   
+}
+.service:hover .tittle{
+    color: var(--white);
+
+}
+.service:hover{
+    background: var(--gradient-1);
+    border: none;
+    cursor: pointer;
+    
+}
+/* END OF THE SECTION===> */
+
+
+
+/* NEXT SECTION STERD==>4 */
+.projects-containor{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+.project-box{
+    background: var(--dark-mode-S200);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.project-box img{
+    min-width: 100%;
+}
+.project-box .button-wapper{
+    justify-content: space-between;
+}
+/* END THE SECTION ++==> */
+
+/* NEXT SECTION 5 */
+
+
+
 
 
 
