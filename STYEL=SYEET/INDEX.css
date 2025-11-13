@@ -239,10 +239,65 @@ justify-content: flex-end;
 /* END THE SECTION ++==> */
 
 /* NEXT SECTION 5 */
+#contacts .tittle{
+    margin-top: 20px;
+}
+.contact-containor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 
+}
+.social-links{
+    max-width: 300px;
+    margin-top: 10px;
 
+}
+.icon-werpper{
+    margin-top: 10px;
+}
+.social-links p{
+font-weight: bold;
+}
+.from-wepper{
+    max-width: 500px;
+}
+.from-wepper input{
+    width: 100%;
+    margin-top: 15px;
+    background: var(--dark-mode-S200);
+    padding: 16px;
+    border: none;
+    outline: none;
+    color: var(--white);
+     border-radius: 5px;
+    
+}
+.from-wepper textarea{
+    width: 100%;
+margin-top: 15px;
+background: var(--dark-mode-S200);
+border: none;
+outline: none; 
+color: var(--white);
+ padding: 16px;
+border-radius: 5px;
+}
+/*  END THE SECTION NO: 5 */
 
+/* STERD THE FUTUR SECTION NO:6 */
 
+.footer-contacnt{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    }
+    .footer-text{
+        opacity: 0.5;
+        font-size: 15px;       
+    }
 
 
 body{
